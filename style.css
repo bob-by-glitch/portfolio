@@ -1,43 +1,43 @@
 body {
-    font-family: pacifico, cursive;
-    background: rgb(245, 236, 221);
-    color: black;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #70e1f2, #fbfbfb);
     text-align: center;
-    padding: 50px 50px 50px 50px;
-    border-radius: 25%;
+    color: rgb(0, 0, 0);
 }
 
 .container {
-    max-width: 400px;
-    margin: auto;
+    margin-top: 80px;
 }
 
 .profile {
     width: 150px;
-    border-radius: 25%;
-    margin-bottom: 20px;
-    border: 5px solid black;
+    border-radius: 50%;
+    border: 3px solid rgb(0, 0, 0);
 }
 
 h1 {
-    margin-bottom: 10px;
+    margin-top: 15px;
 }
 
-.bio {
-    font-size: 16px;
-    margin-bottom: 20px;
+p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 1.6;
 }
 
-.links a {
-    display: block;
-    background: #2563eb;
+.buttons button {
+    background-color: #ff7b00;
+    border: none;
     color: white;
-    padding: 10px;
-    margin: 10px 0;
-    text-decoration: none;
-    border-radius: 5px;
+    padding: 12px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.1s, transform 0.2s;
 }
 
-.links a:hover {
-    background: #1d4ed8;
+.buttons button:hover {
+    background-color: #ff9500;
+    transform: scale(1.05);
 }
